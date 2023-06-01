@@ -22,7 +22,6 @@ const Carousel = ({ data, loading, endpoint, title }) => {
 
   const navigation = (dir) => {
     const container = carouselContainer.current
-    console.log(container)
 
     const scrollAmount =
       dir === 'left'
