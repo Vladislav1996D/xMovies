@@ -74,7 +74,12 @@ const SearchResult = () => {
               </InfiniteScroll>
             </>
           ) : (
-            <span className="resultNotFound">Sorry, Results not found</span>
+            <span className="resultNotFound">
+              Sorry, results not found!
+              <br />
+              <br />
+              Try changing the request.
+            </span>
           )}
         </ContentWrapper>
       )}

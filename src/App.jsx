@@ -10,7 +10,7 @@ import Home from './pages/home/Home'
 import Details from './pages/details/Details'
 import SearchResult from './pages/searchResult/SearchResult'
 import Explore from './pages/explore/Explore'
-import PageNotFound from './pages/error_page/pageNotFound'
+import PageNotFound from './pages/error_page/PageNotFound'
 
 function App() {
   const { url } = useSelector((state) => state.home)
